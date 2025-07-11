@@ -108,6 +108,12 @@
     
     .action-right img {
         border-radius: 50px;
+        transition: 0.5s;
+    }
+    
+    .action-right img:hover {
+        transform: scale(1.15);
+        transition: 0.5s;
     }
     
     .productiveContent {
@@ -150,6 +156,76 @@
         color: #00000078;
     }
     
+    section#review {
+        margin-top: 150px;
+    }
+    
+    .reviewContent {
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .reviewContent h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+    
+    .review-cont {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    
+    .review {
+        width: 32%;
+        border: 1px solid #F2EDED;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    
+    .review:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    
+    .review h3 {
+        margin: 15px 0px 10px 0px;
+        font-size: 28px;
+    }
+    
+    .review p {
+        font-size: 22px;
+    }
+    
+    .review-user {
+        margin: 14px 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .user-def {
+        margin-left: 12px;
+    }
+    
+    .user-def h4 {
+        color: #757575;
+        font-size: 18px;
+    }
+    
+    .user-def p {
+        font-size: 16px;
+        color: #B3B3B3;
+    }
+    
+    .user-img img {
+        border-radius: 50%;
+    }
+    
     .focusContent {
         width: 80%;
         left: 0;
@@ -182,6 +258,12 @@
     
     .focusImage img {
         border-radius: 20px;
+        transition: 0.5s;
+    }
+    
+    .focusImage img:hover {
+        transform: scale(1.013);
+        transition: 0.5s;
     }
     
     .newsletter-left {
@@ -225,7 +307,7 @@
     
     footer {
         background: #fff;
-        padding: 150px 0px;
+        padding: 80px 0px;
     }
     
     .ft-content {
