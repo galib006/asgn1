@@ -39,7 +39,8 @@
     }
     
     nav,
-    .action {
+    .action,
+    .newsletter {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -157,4 +158,51 @@
         font-size: 17px;
         color: #00000080;
         margin: 20px 0px;
+    }
+    
+    section#newsletter {
+        padding: 100px 0px;
+    }
+    
+    .focusImage {
+        margin: 20px 0px;
+    }
+    
+    .newsletter-left {
+        max-width: 40%;
+    }
+    
+    .newsletter-left h1 {
+        font-size: 97px;
+    }
+    
+    form label,
+    form input,
+    form textarea,
+    form button {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        font-size: 20px;
+        margin-top: 11px;
+    }
+    
+    form label {
+        padding: 0px
+    }
+    
+    .newsletter-right {
+        min-width: 44%;
+    }
+    
+    form input,
+    form textarea,
+    form button {
+        border: 1px solid #D6DDED;
+        border-radius: 10px;
+    }
+    
+    form textarea {
+        resize: none;
+        height: 120px;
     }
