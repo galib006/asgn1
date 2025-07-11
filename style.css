@@ -13,6 +13,10 @@
         box-sizing: border-box;
     }
     
+    body {
+        background: #f5f7ff;
+    }
+    
     a {
         text-decoration: none;
         color: #000;
@@ -39,7 +43,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 70%;
+        width: 80%;
         left: 0;
         right: 0;
         margin: auto;
@@ -91,4 +95,44 @@
     
     .action-right img {
         border-radius: 50px;
+    }
+    
+    .productiveContent {
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: #e5e7ff;
+        border-radius: 20px;
+        padding: 60px 0px;
+    }
+    
+    .productiveContent h3 {
+        font-size: 38px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    
+    .productiveRange {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .product {
+        text-align: center;
+    }
+    
+    .product h1 {
+        font-size: 80px;
+        color: #4E47FF;
+    }
+    
+    .product p {
+        font-size: 20px;
+        color: #00000078;
     }
