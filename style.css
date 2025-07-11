@@ -17,6 +17,10 @@
         background: #f5f7ff;
     }
     
+    li {
+        list-style: none;
+    }
+    
     a {
         text-decoration: none;
         color: #000;
@@ -31,6 +35,14 @@
         padding: 10px 20px;
         background: #4E47FF;
         font-size: 16px;
+        transition: 0.5s;
+    }
+    
+    button:hover {
+        background: #dbe44e;
+        color: #000;
+        transform: scale(1.05);
+        transition: 0.5s;
     }
     
     header {
@@ -168,6 +180,10 @@
         margin: 20px 0px;
     }
     
+    .focusImage img {
+        border-radius: 20px;
+    }
+    
     .newsletter-left {
         max-width: 40%;
     }
@@ -205,4 +221,50 @@
     form textarea {
         resize: none;
         height: 120px;
+    }
+    
+    footer {
+        background: #fff;
+        padding: 150px 0px;
+    }
+    
+    .ft-content {
+        width: 35%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .ft-content h1 {
+        font-size: 100px;
+        color: #4E47FF;
+    }
+    
+    .ft-content p {
+        font-size: 20px;
+        color: #8987A1;
+        margin: 20px 0px;
+    }
+    
+    .ft-content nav {
+        display: block;
+        padding: 6px;
+    }
+    
+    .ft-content ul li {
+        display: inline-block;
+        margin: 0px 12px;
+    }
+    
+    .ft-content ul li a {
+        display: block;
+        font-size: 20px;
+        color: #8987A1;
+        margin: 0px 10px;
+    }
+    
+    .ft-content ul li a:hover {
+        color: #4E47FF;
+        text-decoration: underline;
     }
