@@ -26,6 +26,7 @@
         border: none;
         padding: 10px 20px;
         background: #4E47FF;
+        font-size: 16px;
     }
     
     header {
@@ -33,11 +34,12 @@
         padding-bottom: 200px;
     }
     
-    nav {
+    nav,
+    .action {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 90%;
+        width: 70%;
         left: 0;
         right: 0;
         margin: auto;
@@ -67,4 +69,26 @@
         display: block;
         margin: auto;
         margin-top: 35px;
+    }
+    
+    section#Action {
+        padding: 60px 0px;
+    }
+    
+    .action-left h3 {
+        font-size: 42px;
+    }
+    
+    .action-left p {
+        font-size: 24px;
+        color: #25243282;
+        padding: 20px 0px;
+    }
+    
+    .action-left {
+        width: 36%;
+    }
+    
+    .action-right img {
+        border-radius: 50px;
     }
