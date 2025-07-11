@@ -186,6 +186,7 @@
         padding: 20px;
         border-radius: 10px;
         transition: 0.5s;
+        box-shadow: 1px 1px 6px #0000002e;
     }
     
     .review:hover {
